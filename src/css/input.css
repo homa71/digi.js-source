@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+
+@theme {
+    --color-digi-white: #ffffff;
+    --shadow-s-h:0 1px 1px grey;
+    --color-crimson:#dc143c;
+    --spacing-70% :70%;
+    --font-iranyekan:iranyekan,sans-serif;
+    --font-number:number;
+    --color-digi-text:#2b2b2b;
+}
+
+
+@font-face {
+    font-family:iranyekan;
+    src: url(../../public/font/IRANYekanWeb.eot);
+    src: url(../../public/font/IRANYekanWeb.ttf);
+    src: url(../../public/font/IRANYekanWeb.woff);
+    src: url(../../public/font/IRANYekanWeb.woff2);
+    
+   
+   
+}
+
+
+@font-face {
+    font-family:number;
+    src: url(../../public/font/B-NAZANIN.TTF);
+}
+.ltr{direction: ltr;}
+.rtl{direction: rtl;}
